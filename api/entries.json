@@ -20,6 +20,13 @@
       "concept": "CSS Selectors",
       "entry": "How to use classes and ids to apply CSS to elements on the DOM",
       "mood": "Ok"
+    },
+    {
+      "date": "2019-11-14",
+      "concept": "My ability to code.",
+      "entry": "I have made a huge leap in confidence today, not that it will last long, the abyss of despair is deep and wide, and living here is a new challenge everyday.",
+      "mood": "Amazing",
+      "id": 4
     }
   ]
 }

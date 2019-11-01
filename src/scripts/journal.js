@@ -42,13 +42,25 @@ const attachSearchEvent = () => {
 attachSearchEvent();
 
 // get mood values from journal entries 
+
 // attach mood value of journal entries to corresponding mood radio buttons
 const radioEvent = document.getElementsByName("moodRadioButtons")
 
 radioEvent.forEach((radioButton) => {
     radioButton.addEventListener("click", event => {
         const selectedMood = event.target.value
-        console.log(selectedMood)
+
+        function filterMood(entry) {
+            return entry.mood === selectedMood
+        }
+
+        API.getJournalEntries()
+        .then(response => {
+            const currentMood = response.filter(filterMood)
+            renderDom.renderJournalEntries(currentMood)
+        })
     })
 })
+
+
 // write function to append appropriate entries based on mood selected by radio button
