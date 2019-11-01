@@ -35,13 +35,31 @@
             </select>
         </fieldset>
     </form>
-    <button id="recordButton" >Record Journal Entry</button>
+    <button id="recordButton">Record Journal Entry</button>
+
+    <section id="moodSelector">
+        <fieldset>
+            <legend>
+                <label for="amazingRadioButton">Amazing</label>
+                <input type="radio" name="moodRadioButtons" id="amazingRadioButton" value="Amazing">
+
+                <label for="greatRadioButton">Great</label>
+                <input type="radio" name="moodRadioButtons" id="greatRadioButton" value="Great">
+
+                <label for="okRadioButton">Ok</label>
+                <input type="radio" name="moodRadioButtons" id="okRadioButton" value="Ok">
+                
+                <label for="allMoodsRadioButton">All Moods</label>
+                <input type="radio" name="moodRadioButtons" id="allMoodsRadioButton" value="All Moods">
+            </legend>
+        </fieldset>
+    </section>
 
     <article class="entryLog">
 
     </article>
 
-    
+
     <script type="module" src="./scripts/journal.js"></script>
 </body>
 
