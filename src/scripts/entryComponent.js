@@ -8,7 +8,7 @@ const entryManager = {
         <p>${journalEntry.entry}</p>
         <p>${journalEntry.mood}</p>
         <p>${journalEntry.date}</p>
-        <button>Delete</button>
+        <button id="deleteCard--${journalEntry.id}">Delete</button>
       </section>
     `
   }

@@ -1,32 +1,11 @@
 {
   "entries": [
     {
-      "id": 1,
-      "date": "07/24/2018",
-      "concept": "Array methods",
-      "entry": "We learned about 4 different array methods today. forEach made sense, but the others still confuse me.",
-      "mood": "Ok"
-    },
-    {
-      "id": 2,
-      "date": "08/02/2018",
-      "concept": "Fetch calls",
-      "entry": "How to get data from an API",
-      "mood": "Ok"
-    },
-    {
-      "id": 3,
-      "date": "07/07/2018",
-      "concept": "CSS Selectors",
-      "entry": "How to use classes and ids to apply CSS to elements on the DOM",
-      "mood": "Ok"
-    },
-    {
-      "date": "2019-11-14",
-      "concept": "My ability to code.",
-      "entry": "I have made a huge leap in confidence today, not that it will last long, the abyss of despair is deep and wide, and living here is a new challenge everyday.",
-      "mood": "Amazing",
-      "id": 4
+      "date": "2019-11-04",
+      "concept": "Delete Method",
+      "entry": "Its been two and a half fortnights since we began the long journey. Today we finished delete functionality. It was a close battle, we lost so many, and we fought all weekend. Morale has never been lower among the troops. They have resorted to eating their feelings, and its only getting worse. With no end in sight, I've written to congress for support. The only answer I get back is \"Don't worry about it.\" Which understandably makes the feelings of despair even worse. \n\nI don't know how much more we can bear. The remaining troops are keeping a strong upper lip, and continue to encourage each other, proving a strong loyalty and care for their fellow soldiers. The positive attitudes have made this ordeal much easier than it might have been, but still, our strength wavers. \n\nTomorrow we will start the next leg of the journey, although I know half of us are not prepared to move forward after trying to make up lost time on the last engagement. I shall write again at our next checkpoint. In the meantime, pray that we will find the strength to endure through this perilous time.\n\nP.S. \nWe are adopting another army soon. The new army being majorly made up of babies and small children, we are unsure of how we will be able to care for them, while being incapable of caring for ourselves. We shall see what happens.",
+      "mood": "Ok",
+      "id": 2
     }
   ]
 }

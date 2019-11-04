@@ -10,6 +10,8 @@ import renderDom from "./entriesDOM.js"
 
 import API from "./data.js"
 
+import doThaThang from "./events.js"
+
 
 
 API.getJournalEntries()
@@ -55,12 +57,18 @@ radioEvent.forEach((radioButton) => {
         }
 
         API.getJournalEntries()
-        .then(response => {
-            const currentMood = response.filter(filterMood)
-            renderDom.renderJournalEntries(currentMood)
-        })
+            .then(response => {
+                const currentMood = response.filter(filterMood)
+                renderDom.renderJournalEntries(currentMood)
+            })
     })
 })
 
 
 // write function to append appropriate entries based on mood selected by radio button
+
+// Invoke the method that attaches the event listener
+doThaThang.registerDeleteListener()
+
+// Get all recipes from API and render them in the DOM
+API.getJournalEntries().then(renderDom)
