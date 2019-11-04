@@ -18,8 +18,18 @@ let API = {
   },
       body: JSON.stringify(newJournalEntry)
   })
+},
+
+  deleteJournalEntry(cardId) {
+      return fetch(`${URL}/${cardId}`, {
+          method: "DELETE"
+      })
+          .then(response => response.json())
+  }
+
 }
-}
+
+
 
 
 
