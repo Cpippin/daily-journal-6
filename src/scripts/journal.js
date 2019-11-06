@@ -69,6 +69,8 @@ radioEvent.forEach((radioButton) => {
 
 // Invoke the method that attaches the event listener
 doThaThang.registerDeleteListener()
+doThaThang.registerEditListener()
+doThaThang.registerSaveListener()
 
 // Get all recipes from API and render them in the DOM
 API.getJournalEntries().then(renderDom)
