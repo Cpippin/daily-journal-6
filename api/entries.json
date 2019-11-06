@@ -1,10 +1,11 @@
 {
   "entries": [
     {
-      "date": "2019-11-04",
-      "concept": "Delete Method",
-      "entry": "Its been two and a half fortnights since we began the long journey. Today we finished delete functionality. It was a close battle, we lost so many, and we fought all weekend. Morale has never been lower among the troops. They have resorted to eating their feelings, and its only getting worse. With no end in sight, I've written to congress for support. The only answer I get back is \"Don't worry about it.\" Which understandably makes the feelings of despair even worse. \n\nI don't know how much more we can bear. The remaining troops are keeping a strong upper lip, and continue to encourage each other, proving a strong loyalty and care for their fellow soldiers. The positive attitudes have made this ordeal much easier than it might have been, but still, our strength wavers. \n\nTomorrow we will start the next leg of the journey, although I know half of us are not prepared to move forward after trying to make up lost time on the last engagement. I shall write again at our next checkpoint. In the meantime, pray that we will find the strength to endure through this perilous time.\n\nP.S. \nWe are adopting another army soon. The new army being majorly made up of babies and small children, we are unsure of how we will be able to care for them, while being incapable of caring for ourselves. We shall see what happens.",
-      "mood": "Ok",
+      "entryID": "2",
+      "concept": "Edit Method",
+      "date": "2019-11-07",
+      "body": "Its been two and a half fortnights since we began the long journey. Today we finished delete functionality. It was a close battle, we lost so many, and we fought all weekend. Morale has never been lower among the troops. They have resorted to eating their feelings, and its only getting worse. With no end in sight, I've written to congress for support. The only answer I get back is \"Don't worry about it.\" Which understandably makes the feelings of despair even worse. \n\nI don't know how much more we can bear. The remaining troops are keeping a strong upper lip, and continue to encourage each other, proving a strong loyalty and care for their fellow soldiers. The positive attitudes have made this ordeal much easier than it might have been, but still, our strength wavers. \n\nTomorrow we will start the next leg of the journey, although I know half of us are not prepared to move forward after trying to make up lost time on the last engagement. I shall write again at our next checkpoint. In the meantime, pray that we will find the strength to endure through this perilous time.\n\nP.S. \nWe are adopting another army soon. The new army being majorly made up of babies and small children, we are unsure of how we will be able to care for them, while being incapable of caring for ourselves. We shall see what happens.",
+      "mood": "Amazing",
       "id": 2
     }
   ]

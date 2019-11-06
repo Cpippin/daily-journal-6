@@ -5,10 +5,11 @@ const entryManager = {
     return `
       <section>
         <h3>${journalEntry.concept}</h3>
-        <p>${journalEntry.entry}</p>
+        <p>${journalEntry.body}</p>
         <p>${journalEntry.mood}</p>
         <p>${journalEntry.date}</p>
         <button id="deleteCard--${journalEntry.id}">Delete</button>
+        <button id="editCard--${journalEntry.id}">Edit</button>
       </section>
     `
   }

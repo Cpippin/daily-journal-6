@@ -13,48 +13,80 @@
 
     <h1>Daily Journal</h1>
 
-    <form>
-        <fieldset>
-            <label for="date-input">Date of entry</label>
-            <input id="dateInput" type="date" name="date-input" required>
-        </fieldset>
-        <fieldset>
-            <label for="concept-input">Title</label>
-            <input id="conceptInput" type="text" name="concept-input" required>
-        </fieldset>
-        <fieldset>
-            <label for="text-input">Body</label>
-            <textarea id="textInput" name="text-input" required></textarea>
-        </fieldset>
-        <fieldset>
-            <label for="mood-input">Mood</label>
-            <select id="moodInput" class="mood" name="mood-input" required>
-                <option value="Amazing">Amazing</option>
-                <option value="Great">Great</option>
-                <option value="Ok">Ok</option>
-            </select>
-        </fieldset>
-    </form>
-    <button id="recordButton">Record Journal Entry</button>
+    <div class="visibility visible" id="hide-form">
+        <form>
+            <fieldset>
+                <label for="date-input">Date</label>
+                <input id="dateInput" type="date" name="date-input" required>
+            </fieldset>
+            <fieldset>
+                <label for="concept-input">Concept</label>
+                <input id="conceptInput" type="text" name="concept-input" required>
+            </fieldset>
+            <fieldset>
+                <label for="text-input">Entry</label>
+                <textarea id="textInput" name="text-input" required></textarea>
+            </fieldset>
+            <fieldset>
+                <label for="mood-input">Mood</label>
+                <select id="moodInput" class="mood" name="mood-input" required>
+                    <option value="Amazing">Amazing</option>
+                    <option value="Great">Great</option>
+                    <option value="Ok">Ok</option>
+                </select>
+            </fieldset>
+        </form>
+        <button id="recordButton">Record Journal Entry</button>
+    </div>
 
-    <section id="moodSelector">
-        <fieldset>
-            <legend> 
-                <label for="amazingRadioButton">Amazing</label>
-                <input type="radio" name="moodRadioButtons" id="amazingRadioButton" value="Amazing">
-                
-                <label for="greatRadioButton">Great</label>
-                <input type="radio" name="moodRadioButtons" id="greatRadioButton" value="Great">
-                
-                <label for="okRadioButton">Ok</label>
-                <input type="radio" name="moodRadioButtons" id="okRadioButton" value="Ok">
-                
-                <label for="allMoodsRadioButton">All Moods</label>
-                <input type="radio" name="moodRadioButtons" id="allMoodsRadioButton" value="All Moods">
-            </legend>
-        </fieldset>
-    </section>
+    <div class="visibility visible" id="hide-selector">
+        <section id="moodSelector">
+            <fieldset>
+                <legend>
+                    <label for="amazingRadioButton">Amazing</label>
+                    <input type="radio" name="moodRadioButtons" id="amazingRadioButton" value="Amazing">
 
+                    <label for="greatRadioButton">Great</label>
+                    <input type="radio" name="moodRadioButtons" id="greatRadioButton" value="Great">
+
+                    <label for="okRadioButton">Ok</label>
+                    <input type="radio" name="moodRadioButtons" id="okRadioButton" value="Ok">
+
+                    <label for="allMoodsRadioButton">All Moods</label>
+                    <input type="radio" name="moodRadioButtons" id="allMoodsRadioButton" value="All Moods">
+                </legend>
+            </fieldset>
+        </section>
+    </div>
+
+    <div class="visibility hidden">
+        <section id="entryForm">
+            <form>
+                <input type="hidden" id="entryId" value="" />
+                <fieldset class="fieldset">
+                    <label for="entryDate">Date</label>
+                    <input type="date" name="entryDate" id="entryDate">
+                </fieldset>
+                <fieldset class="fieldset">
+                    <label for="entryConcept">Concept</label>
+                    <input type="text" name="entryConcept" id="entryConcept">
+                </fieldset>
+                <fieldset class="fieldset">
+                    <label for="entryBody">Entry</label>
+                    <textarea type="text" name="entryBody" id="entryBody"></textarea>
+                </fieldset>
+                <fieldset class="fieldset">
+                    <label for="entry-mood">Mood</label>
+                    <select id="entryMood" class="mood" name="entry-mood" required>
+                        <option value="Amazing">Amazing</option>
+                        <option value="Great">Great</option>
+                        <option value="Ok">Ok</option>
+                    </select>
+                </fieldset>
+            </form>
+            <button id="save-button">Save Entry</button>
+        </section>
+    </div>
     <article class="entryLog">
 
     </article>
